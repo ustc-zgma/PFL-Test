@@ -54,5 +54,5 @@ def main():
         # print('Epoch [%d]: %.4f / %.4f'%(i, prun_end_time-prun_start_time,epoch_end_time-epoch_start_time))
         total_epoch_time += epoch_end_time-epoch_start_time
         total_prun_time += prun_end_time-prun_start_time
-    print("Average used time: pruning time=%.4f s, local updating time=%.4f"%(total_prun_time/repeat, total_epoch_time/repeat))
+    print("Average used time: pruning time=%.4f s, local updating time=%.4f s"%(total_prun_time/repeat, total_epoch_time/repeat))
 main()
