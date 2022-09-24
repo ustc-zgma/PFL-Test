@@ -20,3 +20,5 @@ Average time for cosine similarity: 0.0136 s
 Average time for l^2 norm: 0.0041s
 
 Average time for model pruning and local updating: 0.7011s / 46.1878s
+
+Average time for calculating loss on a mini-batch: 0.0835 s, std: 0.0113
